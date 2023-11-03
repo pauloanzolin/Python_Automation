@@ -27,7 +27,7 @@
       
     $ sudo yum install python3.11
          
-  ## Install libraries on Python
+  ## Install libraries in Python
   In Terminal (Linux) or CMD or Power Shell (Windows).
   - Is necessary install the Python libraries for run the code.
 
