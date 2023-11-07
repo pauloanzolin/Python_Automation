@@ -62,23 +62,20 @@ async def send_telegram_message(token, chat_id, message):
     await bot.send_message(chat_id=chat_id, text=message, parse_mode='Markdown')
 
 # Configurações do bot do Telegram
-telegram_token = "6937460615:AAHi8yARVyDyHqzP3LXzVIApgDSZMSIQLmw"  # Substitua pelo token do seu bot
-chat_id = "-4049215098"  # Substitua pelo ID do seu chat no Telegram
+telegram_token = "TELEGRAM_TOKEN_BOT"  # Substitua pelo token do seu bot
+chat_id = "TELEGRAM_ID_CHAT"  # Substitua pelo ID do seu chat no Telegram
 
 
 # Bloco principal para executar o código quando este script é executado diretamente
 async def main():
     # Lista de URLs dos produtos a serem monitorados
     product_urls = [
-        "https://www.kabum.com.br/produto/470987/",
-        "https://www.kabum.com.br/produto/471004/",
-        "https://www.kabum.com.br/produto/462167/",
-        "https://www.kabum.com.br/produto/248205/",
-        "https://www.kabum.com.br/produto/114222/",
-        "https://www.kabum.com.br/produto/130250/",
-        "https://www.kabum.com.br/produto/113341/",
-        "https://www.kabum.com.br/produto/377590/",
-        "https://www.kabum.com.br/produto/387325"
+        "https://www.kabum.com.br/produto/469132/", # Exemplo
+        "https://www.kabum.com.br/link_1",
+        "https://www.kabum.com.br/link_2",
+        "https://www.kabum.com.br/link_3",
+        "https://www.kabum.com.br/link_4",
+        "https://www.kabum.com.br/link_5"
     ]
 
     # Chame a função monitor_products para obter informações sobre os produtos
