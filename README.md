@@ -5,7 +5,7 @@
  Then install the necessary libraries.
 
   ### **1.** On Windows:
-   - **1.a.** Click on link: https://www.python.org/downloads/
+   - **1.a.** Click on link: https://www.python.org/downloads/ or https://www.microsoft.com/store/productId/9NRWMJP3717K?ocid=pdpshare
    - **1.b.** Download the latest version of Python.
        
   ![image](https://github.com/pauloanzolin/Python_Automation/assets/68384572/55b6b269-4b1c-483c-ab12-7f6329ce8c9b)
