@@ -70,7 +70,7 @@ async def main():
         "https://www.kabum.com.br/link_2",
         "https://www.kabum.com.br/link_3",
         "https://www.kabum.com.br/link_4",
-        "https://www.kabum.com.br/link_5",
+        "https://www.kabum.com.br/link_5"
     ]
 
     # Chame a função monitor_products para obter informações sobre os produtos
